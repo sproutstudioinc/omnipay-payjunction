@@ -1,5 +1,5 @@
 {
-    "name": "sproutstudioinc/omnipay-Payjunction",
+    "name": "sproutstudioinc/omnipay-payjunction",
     "type": "library",
     "description": "Payjunctionpayments.com gateway for the Omnipay payment processing library",
     "keywords": [
