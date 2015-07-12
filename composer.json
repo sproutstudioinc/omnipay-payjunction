@@ -21,7 +21,7 @@
         }
     ],
     "autoload": {
-        "psr-4": { "Sproutstudioinc\\Payjunction\\" : "src/" }
+        "psr-4": { "Omnipay\\Payjunction\\" : "src/" }
     },
     "require": {
         "omnipay/common": "~2.0"

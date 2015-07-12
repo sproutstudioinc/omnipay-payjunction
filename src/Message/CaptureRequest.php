@@ -1,5 +1,5 @@
 <?php
-namespace Sproutstudioinc\Payjunction\Message;
+namespace Omnipay\Payjunction\Message;
 
 class CaptureRequest extends AbstractRequest
 {

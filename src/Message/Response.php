@@ -1,5 +1,5 @@
 <?php
-namespace Sproutstudioinc\Payjunction\Message;
+namespace Omnipay\Payjunction\Message;
 
 use Omnipay\Common\Message\AbstractResponse;
 

@@ -1,5 +1,5 @@
 <?php
-namespace Sproutstudioinc\Payjunction;
+namespace Omnipay\Payjunction;
 
 use Omnipay\Common\AbstractGateway;
 
@@ -50,47 +50,47 @@ class Gateway extends AbstractGateway
 
     /**
      * @param array $parameters
-     * @return \Sproutstudioinc\Payjunction\Message\AuthorizeRequest
+     * @return \Omnipay\Payjunction\Message\AuthorizeRequest
      */
     public function authorize(array $parameters = array())
     {
-        return $this->createRequest('\Sproutstudioinc\Payjunction\Message\AuthorizeRequest', $parameters);
+        return $this->createRequest('\Omnipay\Payjunction\Message\AuthorizeRequest', $parameters);
     }
 
     /**
      * @param array $parameters
-     * @return \Sproutstudioinc\Payjunction\Message\CaptureRequest
+     * @return \Omnipay\Payjunction\Message\CaptureRequest
      */
     public function capture(array $parameters = array())
     {
-        return $this->createRequest('\Sproutstudioinc\Payjunction\Message\CaptureRequest', $parameters);
+        return $this->createRequest('\Omnipay\Payjunction\Message\CaptureRequest', $parameters);
     }
 
     /**
      * @param array $parameters
-     * @return \Sproutstudioinc\Payjunction\Message\PurchaseRequest
+     * @return \Omnipay\Payjunction\Message\PurchaseRequest
      */
     public function purchase(array $parameters = array())
     {
-        return $this->createRequest('\Sproutstudioinc\Payjunction\Message\PurchaseRequest', $parameters);
+        return $this->createRequest('\Omnipay\Payjunction\Message\PurchaseRequest', $parameters);
     }
 
     /**
      * @param array $parameters
-     * @return \Sproutstudioinc\Payjunction\Message\RefundRequest
+     * @return \Omnipay\Payjunction\Message\RefundRequest
      */
     public function refund(array $parameters = array())
     {
-        return $this->createRequest('\Sproutstudioinc\Payjunction\Message\RefundRequest', $parameters);
+        return $this->createRequest('\Omnipay\Payjunction\Message\RefundRequest', $parameters);
     }
 
     /**
      * @param array $parameters
-     * @return \Sproutstudioinc\Payjunction\Message\VoidRequest
+     * @return \Omnipay\Payjunction\Message\VoidRequest
      */
     public function void(array $parameters = array())
     {
-        return $this->createRequest('\Sproutstudioinc\Payjunction\Message\VoidRequest', $parameters);
+        return $this->createRequest('\Omnipay\Payjunction\Message\VoidRequest', $parameters);
     }
 
 }

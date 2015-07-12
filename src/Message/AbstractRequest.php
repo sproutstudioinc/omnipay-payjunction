@@ -1,5 +1,5 @@
 <?php
-namespace Sproutstudioinc\Payjunction\Message;
+namespace Omnipay\Payjunction\Message;
 
 abstract class AbstractRequest extends \Omnipay\Common\Message\AbstractRequest
 {
